@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sign in</title>
+	<link href="css/log.css" type="text/css" rel="stylesheet" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<style>
+		div.wrap>.log>.write>span{font-size:18px}
+		div.wrap>.log>.write>h5{width:100px;height:20px;margin-left:35px;font:10px 微软雅黑;color:red;line-height:10px}
+		div.wrap>.log>.write>div{width:100px;height:35px;border-radius:5px;border:1px solid #ccc;text-align:center;line-height:35px;background:#f8f8f8;margin-left:35px;font-style:italic;cursor:pointer;}
+	</style>	
+</head>
+<body>
+	<div class="wrap">
+		<div class="intro">
+			<h1>My Trip Registration Form</h1>
+			<p>The World is a book, and those who do not travel read only a page.Trip you remember for life long!</p>
+		</div>
+		<div class="log">
+			<div class="now">
+				<p>Sign In Now</p>
+				<p>Fill in the form below to get instant access:</p>
+			</div>
+			<div class="write">
+				<input type="text"	placeholder="Username"><br>
+				<input type="Password"	placeholder="Password"><br>
+				<input type="text" id="inputRandom" placeholder="please enter verification code">
+				<h5 id="test"></h5>
+				<div id="autoRandom"></div>
+				<input type="submit" value="sign in" id="yan">
+				<p>No account?<a href="logup.html">Create an account</a></p>
+			</div>			
+			<hr>
+			<div class="right">
+				<p>Copyright©Company name All rights reserved.</p>
+			</div>			
+		</div>
+	</div>
+	
+	<script src="js/log.js"></script>
+</body>
+</html>
